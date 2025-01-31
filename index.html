@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instituto Mexico de Tepic</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <!-- Navegación -->
+    <header>
+        <!-- div para solo el nombre del colegio y logo -->
+        <div class="header-content">
+            <img src="imagenes/Logo.png" alt="Logo-IMT" />
+            <h1>Instituto Mexico de Tepic</h1>
+            <a href="https://www.escuelasjs.com/"><img src="imagenes/SJS.png" alt="SJS_Logo" /></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#oferta">Oferta Educativa</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <button id="btnVolverArriba" class="boton-flotante" onclick="scrollToTop()">↑</button>
+
+    <!-- Sección Inicio -->
+    <section id="inicio">
+        <div class="encabezado-inicio">
+            <h1>¡Fieles al Deber!</h1>
+            <h2>ADORANDO Y EDUCANDO</h2>
+            <p>Ser hijos de Dios y ciudadanos de la patria</p>
+        </div>
+        <!-- div para imagenes representativas o de las Instalaciones -->
+        <div class="imagenes-instalaciones">
+            <img src="imagenes/Salones.jpg" alt="Salones_IMT" />
+            <img src="imagenes/Patio_Techado.jpg" alt="Patio_Techado" />
+        </div>
+    </section>
+
+    <!-- Sección Nosotros -->
+    <section id="nosotros">
+        <h1>Nosotros</h1>
+        <h2>Historia</h2>
+        <div class="contenido-nosotros">
+            <img src="imagenes/consagracion.gif" alt="Historia del colegio" class="imagen-historia" />
+            <div>
+                <p>
+                    En Zapotlán el Grande, hoy Ciudad Guzmán, el Siervo de Dios Silvano
+                    Carrillo Cárdenas, después de un hecho doloroso en su parroquia,
+                    recibió la inspiración de fundar la Congregación de Hermanas Siervas
+                    de Jesús Sacramentado, con nueve jóvenes audaces que sintieron el
+                    llamado de Dios para consagrar sus vidas.
+                </p>
+                <p>
+                    La noche del 17 al 18 de junio de 1901, un ladrón extrajo del
+                    sagrario el copón con hostias consagradas, en la Capilla de la
+                    Purísima, anexo al templo del Sagrado Corazón. Este sacrilegio
+                    produjo un gran dolor en el corazón del párroco que amaba
+                    entrañablemente a Jesús Sacramentado. Pidió que por turnos y durante
+                    un año, las familias y en especial los jóvenes, cuidaran de que
+                    ardiera ante el sagrario una lámpara especial, que simbolizaba el
+                    amor fiel a la Eucaristía.
+                </p>
+                <p>
+                    Cuando el Padre Silviano Carrillo veía acercarse a los jóvenes a
+                    encender las lamparillas ante Jesucristo Sacramentado pensó: "Si en
+                    lugar de lámparas fueran almas adoradoras las que ardieran siempre
+                    ante el AMOR-HOSTIA" (I Crón. SJS 112-XII-1906). Era el llamado del
+                    Espíritu Santo para que se transformara en fundador de una
+                    Congregación Religiosa, cuyos fines serían: "La adoración a Jesús
+                    Sacramentado y la educación Cristiana de la niñez y juventud" (III
+                    Crón. SJS 13-V-1919). Apóstol de la educación, consideró la escuela
+                    como un lugar óptimo para evangelizar. Expresó: "Mi escuela será
+                    ante todo Cristiana" (Alocución S.D 31-VIII-1897).
+                </p>
+                <p>
+                    El 25 de noviembre de 1904, en el Asilo de la Luz, en la ciudad de
+                    Guadalajara, nacía la Congregación de Hermanas Siervas de Jesús
+                    Sacramentado.​
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="mision-vision-valores">
+        <div class="contenido">
+            <h2>MISIÓN & VISIÓN</h2>
+            <p>
+                <strong>Misión:</strong> Anunciar el Reino de Dios y colaborar con los
+                padres de familia en la formación integral de los alumnos, teniendo
+                como centro a Jesús Sacramentado, a fin de lograr auténticos hijos de
+                Dios y ciudadanos de la Patria.
+            </p>
+            <p>
+                <strong>Visión:</strong> Ser una escuela SJS innovadora, a la
+                vanguardia en procesos educativos de calidad, donde se forman personas
+                competentes, capaces de enfrentar los retos del mundo actual con
+                dimensión trascendente.
+            </p>
+
+            <h2>VALORES DEL COLEGIO</h2>
+            <div class="valores">
+                <div class="valor">Unidad</div>
+                <div class="valor">Caridad</div>
+                <div class="valor">Alegría</div>
+                <div class="valor">Respeto</div>
+                <div class="valor">Responsabilidad</div>
+                <div class="valor">Solidaridad</div>
+                <div class="valor">Patriotismo</div>
+                <div class="valor">Gratitud</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Oferta Educativa -->
+    <section class="oferta-educativa" id="oferta">
+        <h2>Nuestra Oferta Educativa</h2>
+        <div class="mosaico">
+            <div class="nivel">
+                <a href="preescolar.html">
+                    <img src="imagenes/IA_Preescolar.png" alt="Preescolar" />
+                    <div class="descripcion">
+                        <h3>Preescolar</h3>
+                        <p>Desarrollo integral con un enfoque lúdico y educativo.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="nivel">
+                <a href="primaria.html">
+                    <img src="imagenes/IA_Primaria.png" alt="Primaria" />
+                    <div class="descripcion">
+                        <h3>Primaria</h3>
+                        <p>Formación académica sólida con valores y creatividad.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="nivel">
+                <a href="secundaria.html">
+                    <img src="imagenes/IA_Secundaria.png" alt="Secundaria" />
+                    <div class="descripcion">
+                        <h3>Secundaria</h3>
+                        <p>Preparación académica y desarrollo de habilidades críticas.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="nivel">
+                <a href="preparatoria.html">
+                    <img src="imagenes/IA_Preparatoria.png" alt="Preparatoria" />
+                    <div class="descripcion">
+                        <h3>Preparatoria</h3>
+                        <p>Preparación para la universidad con excelencia educativa.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Galería -->
+    <section class="galeria" id="galeria">
+        <h2>Galería</h2>
+        <div class="carrusel">
+            <button class="prev" onclick="cambiarImagen(-1)">&#10094;</button>
+            <div class="imagenes">
+                <img src="imagenes/Explanada.jpg" class="slide" />
+                <img src="imagenes/Explanada02.jpg" class="slide" />
+                <img src="imagenes/Preescolar.jpg" class="slide" />
+                <img src="imagenes/Salones.jpg" class="slide" />
+            </div>
+            <button class="next" onclick="cambiarImagen(1)">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- Sección Facebook y contacto -->
+    <main class="contact-container" id="contacto">
+        <div class="facebook">
+            <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Finsmextepnay&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="340" height="500" style="border: none; overflow: hidden" scrolling="no" frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+            </iframe>
+        </div>
+        <div class="contact-form">
+            <h2>Contacto</h2>
+            <form id="formulario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required />
+
+                <label for="email">Correo:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            <a href="https://calendarioescolar.sep.gob.mx/">CALENDARIO OFICIAL DE LA SEP</a>
+        </p>
+        <p>&copy; Copyright 2025 by Instituto Mexico de Tepic</p>
+    </footer>
+</body>
+
+</html>
